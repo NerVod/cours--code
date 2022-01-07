@@ -1,0 +1,14 @@
+{
+  "name": "statique",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "a.js",
+  "scripts": {
+    "start": "node a.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sami Radi",
+  "license": "ISC"
+}

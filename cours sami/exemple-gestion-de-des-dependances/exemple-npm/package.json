@@ -1,0 +1,17 @@
+{
+  "name": "exemple-npm",
+  "version": "1.0.0",
+  "description": "Ceci est un exemple d'utilisation de npm pour gérer les dépendances d'un projet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "affiche-le-contenu-du-dossier": "ls"
+  },
+  "author": "Sami Radi",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^8.3.0"
+  }
+}
