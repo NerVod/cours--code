@@ -12,19 +12,18 @@ class CartManager {
   /**
    *create a new cart
    *
-   * @return {array} 
+   * @return {array}
    * @memberof CartManager
    */
   getCart() {
     return this.cart;
   }
 
- 
   /**
    *function that push new item in cart array
    *
    * @param {object} item
-   * @return {object} 
+   * @return {object}
    * @memberof CartManager
    */
   addItem(item) {
@@ -45,7 +44,7 @@ class CartManager {
    *function that removes items in the cart's array
    *
    * @param {*} item
-   * @return {*} 
+   * @return {*}
    * @memberof CartManager
    */
   removeItem(item) {
@@ -61,3 +60,5 @@ class CartManager {
     return this;
   }
 }
+
+export { CartManager };
