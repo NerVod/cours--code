@@ -9,3 +9,7 @@ import  { CartManager }  from "./cart.js";
 console.log(CartManager)
 import { ProductsRepository }  from "./products.js";
 console.log(ProductsRepository)
+
+const builder = new GuiBuilder(new CartManager(), new ProductsRepository());
+// Initialisation de l'interface graphique.
+builder.initialize();
