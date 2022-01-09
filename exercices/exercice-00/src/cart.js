@@ -61,4 +61,5 @@ class CartManager {
   }
 }
 
-export { CartManager };
+export { CartManager }
+
